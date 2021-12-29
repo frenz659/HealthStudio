@@ -1,0 +1,267 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.cover {
+    background-image: url("./lorenzo-fatto-offidani-oYSUTt7Cj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(245, 220, 220, 0.2);
+
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 orange;
+}
+
+nav {
+    float: right;
+    color: white;
+    width: 46%;
+    margin: 32px 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:first-child {
+    color: #00b894;
+}
+
+section.covercontent {
+    width: 60%;
+    margin: 240px auto;
+    text-align: center;
+    color: white;
+}
+
+section.covercontent h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+section.covercontent button {
+    margin: 30px;
+    padding: 20px;
+
+}
+
+
+.about {
+    text-align: center;
+    width: 100%;
+    margin: 200px auto;
+}
+
+section.aboutcontent {
+    margin: 50px auto;
+    width: 50%;
+
+}
+
+div.about section.aboutcontent h1,
+h3,
+p {
+    padding: 20px;
+}
+
+
+div.inst {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    border: 2px solid rgba(74, 75, 103, 255);
+    background-color: rgba(74, 75, 103, 255);
+
+}
+
+section.instcontent {
+    text-align: center;
+    margin: 80px auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+.bio {
+    float: left;
+    width: 50%;
+    margin-top: 80px;
+
+}
+
+div.inst section.instcontent h1,
+h2,
+h4,
+p {
+    padding: 20px;
+}
+
+
+div.contact1 {
+    width: 100%;
+    border: 2px solid #E8CEBF;
+    text-align: left;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #E8CEBF);
+}
+
+section.contact1content {
+    width: 60%;
+    margin: 80px auto;
+}
+
+.contact1content::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.contact1content div.block1 {
+    float: left;
+    width: 60%;
+}
+
+.contact1content div.block2 {
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.contact1content input {
+    border: none;
+    border-bottom: 4px solid rgba(74, 75, 103, 255);
+    padding: 20px 20px;
+}
+
+.block2 a {
+    margin-left: 10px;
+    padding: 20px 40px;
+    text-decoration: none;
+    background-color: rgba(74, 75, 103, 255);
+    color: #fff;
+}
+
+.block2 a:hover {
+    background-color: #00b894;
+    color: white;
+}
+
+
+.contact2 {
+    width: 100%;
+    height: 1080px;
+    display: block;
+    background-image: url("humphrey-muleba-dDp-6pXrYik-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.container {
+    width: 60%;
+    height: 1080px;
+    float: right;
+    background-color: #fff;
+}
+
+.contact2content {
+    width: 80%;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px #00b894;
+
+}
+
+.contact2content input {
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact2content a.button {
+    color: #fff;
+    background-color: orange;
+    padding: 15px 20px;
+    margin: 30px 0px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.social {
+    margin: 80px -20px;
+    color: rgba(74, 75, 103, 255);
+}
+
+.social {
+    padding: 12px;
+    text-align: center;
+}
+
+.social img {
+    margin: 20px 10px;
+
+}
+
+.social a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutcontent {
+        width: 100%;
+        margin: 0px;
+        background-color: #00b894;
+    }
+}
+
+footer {
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    background: #111;
+    height: auto;
+    padding-top: 40px;
+}
+
+footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
